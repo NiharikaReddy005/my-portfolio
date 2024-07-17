@@ -9,18 +9,16 @@
 
 .profile{
     position: absolute;
-    top: -10rem;
+    top: -4rem;
     right:0;
     z-index: -1;
     object-fit: cover;
     height: 100vh;
-    /* width: 40vw; */
 }
 
 .introContent{
-    height: calc(100vh - 4rem); 
-    /* height: 100vh;
-    width: 40vw; */
+    height: 100vh;
+    width: 100vw;
     padding: 2rem;
     font-size: 3rem;
     font-weight: 700;
@@ -31,7 +29,7 @@
 
 .hello{
     font-size: 1.75rem;
-    font-weight: 100;
+    font-weight: 250;
 }
 
 .introName{
@@ -40,7 +38,7 @@
 
 .introPara{
     font-size: medium;
-    font-weight: 100;
+    font-weight: 250;
 }
 
 .hiremebtn{
@@ -55,7 +53,7 @@
 }
 
 .hireMeImg{
-    object-fit:contain;
+    object-fit:cover;
     height: 1rem;
     width: 1rem;
     margin: 1rem;
@@ -74,4 +72,9 @@
     }
 }
 
+@media screen and (max-width:480px){
+    .profile{
+        right:-20vw;
+    }
+}
 /* remove width in introcontent and profile to make it responsive and change image. */

@@ -1,16 +1,15 @@
 import React from 'react'
 import './intro.css'
-import profile from '../../assets/TestImg.png';
-import hireMe from '../../assets/hireMe.png';
+import profile from '../../assets/Profile.jpg';
+import hireMe from '../../assets/Hire.png';
 const Intro = () => {
   return (
     <section id="intro">
         <div className="introContent">
             <span className="hello">Hello!</span>
             <span className="introText">I'm<span className="introName"> Niharika</span><br/>Software Developer</span>
-            <br/>
             <p className="introPara">
-            Highly skilled and results-driven computer science professional with a solid foundation in software development and project management. Seeking a challenging role where I can leverage my expertise to contribute to innovative projects, drive efficiency, and deliver impactful solutions.Eager to apply my diverse skill set and collaborative mindset to contribute effectively to dynamic teams and achieve organizational goals.
+            Highly skilled and results-driven computer science professional with a solid foundation in software development and project management.
             </p>
             <br/>
             <button className="hiremebtn">
