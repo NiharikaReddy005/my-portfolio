@@ -10,6 +10,7 @@ const Intro = () => {
             <span className="introText">I'm<span className="introName"> Niharika</span><br/>Software Developer</span>
             <p className="introPara">
             Highly skilled and results-driven computer science professional with a solid foundation in software development and project management.
+            Seeking a challenging role where I can leverage my expertise in software engineering to contribute to innovative projects, drive efficiency, and deliver impactful solutions.
             </p>
             <br/>
             <button className="hiremebtn">

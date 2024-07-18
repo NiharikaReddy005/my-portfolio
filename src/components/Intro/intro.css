@@ -18,7 +18,6 @@
 
 .introContent{
     height: 100vh;
-    width: 100vw;
     padding: 2rem;
     font-size: 3rem;
     font-weight: 700;
@@ -39,6 +38,7 @@
 .introPara{
     font-size: medium;
     font-weight: 250;
+    max-width: 45rem;
 }
 
 .hiremebtn{
@@ -77,4 +77,3 @@
         right:-20vw;
     }
 }
-/* remove width in introcontent and profile to make it responsive and change image. */
